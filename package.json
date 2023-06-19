@@ -40,13 +40,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/lowlife-technology/neojunker-mobile",
-  "author": "Low Life Technology <danskyjs@icloud.com> (https://github.com/lowlife-technology)",
+  "repository": "https://github.com/lowlife-technology/react-native-neojunker",
+  "author": "Low Life Technology (https://github.com/lowlife-technology)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lowlife-technology/neojunker-mobile/issues"
+    "url": "https://github.com/lowlife-technology/react-native-neojunker/issues"
   },
-  "homepage": "https://github.com/lowlife-technology/neojunker-mobile#readme",
+  "homepage": "https://github.com/lowlife-technology/react-native-neojunker#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
