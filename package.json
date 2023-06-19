@@ -1,7 +1,7 @@
 {
   "name": "react-native-neojunker",
-  "version": "0.1.0",
-  "description": "test",
+  "version": "0.1.2",
+  "description": "react native for the Low Life Technology design system called Neo Junker.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
   "types": "lib/typescript/index.d.ts",
@@ -119,6 +119,7 @@
       "prettier"
     ],
     "rules": {
+      "react/react-in-jsx-scope": "off",
       "prettier/prettier": [
         "error",
         {
@@ -126,7 +127,8 @@
           "singleQuote": true,
           "tabWidth": 2,
           "trailingComma": "es5",
-          "useTabs": false
+          "useTabs": false,
+          "endOfLine": "auto"
         }
       ]
     }
@@ -140,7 +142,8 @@
     "singleQuote": true,
     "tabWidth": 2,
     "trailingComma": "es5",
-    "useTabs": false
+    "useTabs": false,
+    "endOfLine": "auto"
   },
   "react-native-builder-bob": {
     "source": "src",
